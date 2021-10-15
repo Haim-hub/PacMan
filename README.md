@@ -3,7 +3,7 @@ My own implementation of PacMan.
 
 
 ## Program Specification
-**PacMan** can _move_ around in a **maze**, and _collide_ with the **walls**. 
+**PacMan** can _move_ around in a **maze**, _comprised_ of **tiles**, and _collide_ with the **walls**. 
 In the **maze** there is **orbs** that can be _picked_ up by _moving_ into them.
 It is possible to _keep track_ of how many **orbs** that have been _picked_ up. \
 **Noun** - _Verb_
@@ -26,6 +26,11 @@ Requirements made from the Noun-Verb analysis
 |NF02|Orbs|There should be an orb on all tiles without a wall, at the beginning.|
 
 ## CRC Cards
+
+|PacMan||
+|---|---|
+|Responsibilities|Collaborators|
+|- Can move his position <br> - Contains a list of surrounding **tiles**| - Tiles |
 
 
 
