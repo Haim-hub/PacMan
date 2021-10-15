@@ -25,12 +25,6 @@ Requirements made from the Noun-Verb analysis
 |NF01|Score|The system has to keep track on have many orbs that have been picked up.|
 |NF02|Orbs|There should be an orb on all tiles without a wall, at the beginning.|
 
-## CRC Cards
-
-|PacMan||
-|---|---|
-|Responsibilities|Collaborators|
-|- Can move his position <br> - Contains a list of surrounding **tiles**| - Tiles |
 
 
 
